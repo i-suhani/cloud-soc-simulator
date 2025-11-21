@@ -11,7 +11,7 @@ wafv2 = boto3.client("wafv2")
 
 # -------- CONFIG ----------
 SNS_TOPIC_ARN = "arn:aws:sns:ap-south-1:YOUR_ACCOUNT_ID:cloud-soc-alerts"
-S3_BUCKET = "cloud-soc-evidence-bucket"
+S3_BUCKET = "cloud-soc-evidence-2025-11-21"
 WAF_WEBACL_ARN = "arn:aws:wafv2:ap-south-1:YOUR_ACCOUNT_ID:regional/webacl/cloud-soc-waf/12345"
 # --------------------------
 
