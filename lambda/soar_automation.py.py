@@ -15,7 +15,8 @@ sns = boto3.client("sns")
 
 # -------- CONFIG ----------
 SNS_TOPIC_ARN = "arn:aws:sns:ap-south-1:627031163413:cloud-soc-alerts"
-S3_BUCKET = "cloud-soc-evidence-2025-11-21"
+S3_BUCKET = "cloud-soc-evidence-mumbai"
+
 # --------------------------
 
 
