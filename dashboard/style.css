@@ -1,0 +1,100 @@
+/* GLOBAL SETTINGS */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0d0d0d;
+    color: #eee;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 10px;
+    background: linear-gradient(90deg, #3f1e54, #000);
+    border-bottom: 1px solid #2a0035;
+    box-shadow: 0 0 40px rgba(175, 0, 255, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    color: #d946ef; /* purple glow */
+    text-shadow: 0 0 20px #0c090c;
+}
+
+header p {
+    color: #bbb;
+    margin-top: 8px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20px;
+}
+
+.card {
+    background: rgba(25, 0, 35, 0.8);
+    border: 1px solid #4c007d;
+    padding: 25px;
+    width: 25%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(162, 41, 255, 0.4);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 45px rgba(203, 46, 255, 0.7);
+}
+
+.card h2 {
+    color: #e879f9;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 32px;
+    color: #fff;
+}
+
+/* TABLE SECTIONS */
+.table-section {
+    margin: 40px;
+    background: rgba(20, 0, 35, 0.7);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #4c007d;
+    box-shadow: 0 0 25px rgba(162, 41, 255, 0.3);
+}
+
+.table-section h2 {
+    color: #e879f9;
+    margin-bottom: 15px;
+}
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ddd;
+}
+
+table th {
+    background: rgba(60, 0, 90, 0.6);
+    color: #f0abfc;
+    padding: 14px;
+    border-bottom: 2px solid #d946ef;
+    text-align: left;
+}
+
+table td {
+    padding: 14px;
+    border-bottom: 1px solid #2a0035;
+}
+
+table tr:hover {
+    background: rgba(255, 0, 255, 0.08);
+}
