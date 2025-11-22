@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud SOC Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Cloud Security Operations Center</h1>
+    <p>Real-Time Threat Monitoring Dashboard</p>
+</header>
+
+<section class="cards">
+
+    <div class="card glass">
+        <h2>Total Alerts</h2>
+        <p id="alertCount">0</p>
+    </div>
+
+    <div class="card glass">
+        <h2>High Severity</h2>
+        <p id="highCount">0</p>
+    </div>
+
+    <div class="card glass">
+        <h2>Total Incidents</h2>
+        <p id="incidentCount">0</p>
+    </div>
+
+</section>
+
+<section class="table-section glass">
+    <h2>Recent Alerts</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Alert ID</th>
+                <th>Type</th>
+                <th>Severity</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody id="alertTable"></tbody>
+    </table>
+</section>
+
+<section class="table-section glass">
+    <h2>Threat Intelligence</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>IP Address</th>
+                <th>Threat Type</th>
+                <th>Last Seen</th>
+            </tr>
+        </thead>
+        <tbody id="intelTable"></tbody>
+    </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
